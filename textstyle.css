@@ -1,0 +1,38 @@
+.page * {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.page p {
+    font-size: large;
+    padding-left: 5px;
+    padding-bottom: 8px;
+}
+
+.Example > p:first-child {
+    font-size: small;
+    color: #bbb;
+}
+
+.Example > p {
+    font-size: medium;
+    padding: 15px 0 15px 0;
+}
+
+.page h3 {
+    font-size: larger;
+    padding-bottom: 10px;
+}
+
+hr {
+    border: 0;
+    border-top: solid 1px #dedede;
+    margin: 20px;
+}
+
+.page .Example {
+    background-color: #eee;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 30px;
+    margin: 10px;
+}
